@@ -63,9 +63,9 @@ class News extends Component {
     <div className="newsFrom">
 
           <form onSubmit={this.handleSubmit}>
-             <input className="title" type="text" name="Title" placeholder="Title" /><br/>
-            <textarea className="textarea" type="text" name="Description" placeholder="Description" cols="100" rows="8"/><br/>
-              <input className="photo" type="file" name="Photo" placeholder="" onChange={e=>{this.imageChange(e)}}/><br/>
+             <input className="title" required type="text" name="Title" placeholder="Title" /><br/>
+            <textarea className="textarea" required type="text" name="Description" placeholder="Description" cols="100" rows="8"/><br/>
+              <input className="photo" required type="file" name="Photo" placeholder="" onChange={e=>{this.imageChange(e)}}/><br/>
               <button type='submit'> Sent  </button>
           </form>
   </div>
