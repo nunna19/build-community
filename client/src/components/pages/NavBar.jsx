@@ -13,7 +13,7 @@ class NavBar extends Component {
     let isOfficer = user.officer; 
 
     if (isOfficer){
-      return(<span><Link to="/NewsFrom">News</Link></span> )
+      return(<span><Link to="/NewsFrom">Update News</Link></span> )
     }
 
   }

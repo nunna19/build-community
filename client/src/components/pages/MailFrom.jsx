@@ -43,7 +43,7 @@ class Mail extends Component {
     if(isOfficer){
     return this.state.users.map(user => {
 
-      return <option value={user._id}>{user.username}</option>;
+      return<option value={user._id}>{user.username}</option>;
     });
   }else{
     return <option value={user._id}>To Officer</option>;
@@ -60,15 +60,15 @@ class Mail extends Component {
         <div className="inputMailBox">
 
           <form onSubmit={this.handleSubmit}>
-
-            <select name="itemType">
             
-             To Room :  {this.showAllTheUsers()}
-            </select>
+            To Room :<select name="itemType">
+            
+             {this.showAllTheUsers()}
+            </select><br/>
 
-            <input type="text" name="Title" placeholder="Title" />
-            <textarea type="text" name="Description" placeholder="Description" cols="30" rows="7"/>
-            <input type="file"  name="Photo" placeholder=""/> <br/>
+            <input className="title" type="text" name="Title" placeholder="Title" /><br/>
+            <textarea className="textarea" type="text" name="Description" placeholder="Description" cols="100" rows="8"/><br/>
+            <input className="photo" type="file"  name="Photo" placeholder=""/> <br/>
             <button type="submit">Sent</button>
 
           </form>

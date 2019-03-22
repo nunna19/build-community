@@ -60,16 +60,13 @@ class News extends Component {
   return(
       <div>
           <NavBar />
-    <div className="newsBox">
-    <h1>Report</h1>
+    <div className="newsFrom">
+
           <form onSubmit={this.handleSubmit}>
-              {/* <input type="text" name="Room" placeholder="Room Number"/> */}
-              <input type="text" name="Title" placeholder="Title"/>
-              <input type="text" name="Description" placeholder="Description"/>
-              <input type="file" name="Photo" placeholder="" onChange={e=>{this.imageChange(e)}}/>
-              <button type='submit'>
-                  Sent
-              </button>
+             <input className="title" type="text" name="Title" placeholder="Title" /><br/>
+            <textarea className="textarea" type="text" name="Description" placeholder="Description" cols="100" rows="8"/><br/>
+              <input className="photo" type="file" name="Photo" placeholder="" onChange={e=>{this.imageChange(e)}}/><br/>
+              <button type='submit'> Sent  </button>
           </form>
   </div>
   </div>
