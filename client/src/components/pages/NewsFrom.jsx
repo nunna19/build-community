@@ -43,6 +43,7 @@ class News extends Component {
       
         axios.post(`${SERVER_URL}/sendNews`, postObj).then(res=>{
           console.log(res)
+          this.props.history.push('/')
         })
       })
       

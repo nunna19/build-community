@@ -34,6 +34,7 @@ class Mail extends Component {
 
     axios.post(`${SERVER_URL}/sendMessage`, postObj).then(res => {
       console.log(res);
+      this.props.history.push('/Sent')
     });
   };
 
