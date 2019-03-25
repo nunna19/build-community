@@ -46,7 +46,7 @@ class Sent extends Component {
           <div key={i} className="eachInbox">
             
             <i style={{color:"blue"}}>{ moment(eachInbox.created_at).format('L') }; : </i>
-            Title : {eachInbox.Title} : {eachInbox.Description}
+            Title : {eachInbox.Title} : {eachInbox.Description} <img sce={eachInbox.Image}/>
 
           </div>
       )  

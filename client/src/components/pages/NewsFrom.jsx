@@ -46,10 +46,7 @@ class News extends Component {
           this.props.history.push('/')
         })
       })
-      
- 
-  
-    }
+    };
 
   imageChange  = (e) => {
     console.log(e.target.files)

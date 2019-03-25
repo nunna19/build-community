@@ -27,7 +27,7 @@ class Mail extends Component {
       Title: Title.value,
       Description: Description.value,
       userId: itemType.value,
-      // Image: Image.value
+     
 
     };
     console.log(postObj);
