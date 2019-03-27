@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import axios from "axios";
 import NavBar from "./NavBar";
 import api from '../../api';
-import {CloudinaryContext, Transformation} from 'cloudinary-react';
 import {SERVER_URL} from '../../config'
 
 class Mail extends Component {
