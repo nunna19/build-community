@@ -68,7 +68,7 @@ class Mail extends Component {
 
             <input className="title" type="text" name="Title" placeholder="Title" /><br/>
             <textarea className="textarea" type="text" name="Description" placeholder="Description" cols="100" rows="8"/><br/>
-            <input className="photo" type="file"  name="Photo" placeholder=""/> <br/>
+            {/* <input className="photo" type="file"  name="Photo" placeholder=""/> <br/> */}
             <button type="submit">Sent</button>
 
           </form>
