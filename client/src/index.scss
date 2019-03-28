@@ -44,7 +44,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    // height: 650px;
+    height: 800px;
     background-repeat: no-repeat
 
   }
@@ -93,7 +93,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 550px;;
+  height: 800px;
  
 }
 .warnFirstBox{
@@ -131,7 +131,7 @@ border-bottom: 3px solid rgb(0, 128, 255);
 .NewsBox p , .indexMesBox p, .sentBox p{
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-  font: 10px sans-serif;
+  font: 15px sans-serif;
   overflow: scroll;
   box-shadow: 0 0 200px rgb(255, 255, 255);
 }
@@ -148,10 +148,10 @@ font-weight: bold;
   background-color: white;
 }
 .eachNewsBox, .eachInbox, {
-  height: 2vh;
+  height: 3vh;
 }
 .eachNewsBox:hover,.eachInbox:hover{
-  height:15vh;
+  height:20vh;
   overflow:scroll;
   color: black;
   background-color: rgb(233, 233, 235);
