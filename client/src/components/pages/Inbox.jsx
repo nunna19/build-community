@@ -105,6 +105,8 @@ class Inbox extends Component {
 
       return data.writer.username.includes(event.target.value)
 
+
+
     })
     this.setState({
       filteredRoom:filterList, 
